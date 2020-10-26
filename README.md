@@ -1,2 +1,2 @@
 # strapilogical
-Undestrand Strapi's CMS logical
+Undestanding Strapi's CMS logical
