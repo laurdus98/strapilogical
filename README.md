@@ -1,2 +1,2 @@
 # strapilogical
-Undestanding Strapi's CMS logical
+Understanding Strapi's CMS logical
