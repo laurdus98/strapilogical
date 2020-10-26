@@ -1,0 +1,27 @@
+{
+  "collectionName": "components_hours_hours_of_operations",
+  "info": {
+    "name": "hours_of_operations",
+    "icon": "concierge-bell",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "day_interval": {
+      "type": "string",
+      "required": true
+    },
+    "opening_hours": {
+      "type": "string",
+      "required": true
+    },
+    "closing_hours": {
+      "type": "string",
+      "required": true
+    },
+    "kind": {
+      "type": "string",
+      "required": true
+    }
+  }
+}

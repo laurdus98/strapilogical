@@ -1,0 +1,26 @@
+{
+  "kind": "singleType",
+  "collectionName": "hours_of_operations",
+  "info": {
+    "name": "hours_of_operations"
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": true
+  },
+  "attributes": {
+    "day_interval": {
+      "type": "string",
+      "required": true
+    },
+    "opening_hours": {
+      "type": "string",
+      "required": true
+    },
+    "closing_hours": {
+      "type": "string",
+      "required": true
+    }
+  }
+}

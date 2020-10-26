@@ -1,0 +1,19 @@
+{
+  "collectionName": "components_types_type_operations",
+  "info": {
+    "name": "type_operations",
+    "icon": "diagnoses",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "label": {
+      "type": "string",
+      "required": true
+    },
+    "rating": {
+      "type": "string",
+      "required": true
+    }
+  }
+}

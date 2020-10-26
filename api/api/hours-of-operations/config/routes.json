@@ -1,0 +1,28 @@
+{
+  "routes": [
+    {
+      "method": "GET",
+      "path": "/hours-of-operations",
+      "handler": "hours-of-operations.find",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "PUT",
+      "path": "/hours-of-operations",
+      "handler": "hours-of-operations.update",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "DELETE",
+      "path": "/hours-of-operations",
+      "handler": "hours-of-operations.delete",
+      "config": {
+        "policies": []
+      }
+    }
+  ]
+}
