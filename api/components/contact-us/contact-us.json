@@ -1,0 +1,25 @@
+{
+  "collectionName": "components_contact_us_contact_uses",
+  "info": {
+    "name": "contact-us",
+    "icon": "paper-plane"
+  },
+  "options": {},
+  "attributes": {
+    "label": {
+      "type": "string",
+      "required": true
+    },
+    "location": {
+      "type": "string"
+    },
+    "url": {
+      "type": "email",
+      "required": true
+    },
+    "data": {
+      "type": "date",
+      "required": true
+    }
+  }
+}

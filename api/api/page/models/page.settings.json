@@ -1,0 +1,47 @@
+{
+  "kind": "collectionType",
+  "collectionName": "pages",
+  "info": {
+    "name": "Pages",
+    "description": ""
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": true
+  },
+  "attributes": {
+    "pagetitle": {
+      "type": "text",
+      "required": true
+    },
+    "pagesubtitle": {
+      "type": "text",
+      "required": true
+    },
+    "pagecontent": {
+      "type": "richtext"
+    },
+    "pageimportant": {
+      "type": "richtext",
+      "required": false
+    },
+    "pagemedia": {
+      "collection": "file",
+      "via": "related",
+      "allowedTypes": [
+        "files",
+        "images",
+        "videos"
+      ],
+      "plugin": "upload",
+      "required": false
+    },
+    "contatti": {
+      "type": "component",
+      "repeatable": true,
+      "component": "contact-us.contact-us",
+      "required": true
+    }
+  }
+}
