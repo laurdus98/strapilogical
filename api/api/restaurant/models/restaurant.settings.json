@@ -37,13 +37,19 @@
       "required": false
     },
     "categories": {
-      "via": "restaurants",
-      "collection": "category"
+      "collection": "category",
+      "via": "restaurants"
     },
     "restaurant_hours": {
       "type": "component",
       "repeatable": true,
       "component": "hours.hours-of-operations",
+      "required": true
+    },
+    "listino_price": {
+      "type": "component",
+      "repeatable": true,
+      "component": "listino-prezzi.listino",
       "required": true
     }
   }
