@@ -1,0 +1,32 @@
+{
+  "collectionName": "components_listino_prezzi_listinos",
+  "info": {
+    "name": "Listino",
+    "icon": "ticket-alt"
+  },
+  "options": {},
+  "attributes": {
+    "info": {
+      "type": "richtext",
+      "required": true
+    },
+    "price_attuale": {
+      "type": "decimal"
+    },
+    "price_ancient": {
+      "type": "decimal"
+    },
+    "time": {
+      "type": "enumeration",
+      "enum": [
+        "Anno",
+        "Mese",
+        "Giorno",
+        "Ora",
+        "Minuto",
+        "Secondo"
+      ],
+      "required": false
+    }
+  }
+}
